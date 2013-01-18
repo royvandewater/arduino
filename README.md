@@ -1,4 +1,4 @@
-arduino
+Arduino
 =======
 
 Collection of Arduino projects
