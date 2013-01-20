@@ -20,7 +20,7 @@ void LedArray::init() {
 }
 
 void LedArray::roll() {
-  long result = random(1,7);
+  int result = random(1,7);
 
   binary_display(result);
 }

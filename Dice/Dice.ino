@@ -8,8 +8,8 @@ LedArray led_array(ORANGE_LED, PINK_LED, RED_LED);
 // the setup routine runs once when you press reset:
 void setup()  {
   led_array.init();
+  led_array.roll();
 }
 
 void loop() {
-  led_array.roll();
 }
