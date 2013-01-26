@@ -14,6 +14,7 @@ bool previouslyPressed = false;
 // the setup routine runs once when you press reset:
 void setup()  {
   led_array.init();
+  button.init();
 }
 
 void loop() {

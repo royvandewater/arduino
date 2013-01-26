@@ -9,6 +9,10 @@ public:
     m_inputPin = inputPin;
   }
 
+  void init() {
+    pinMode(m_inputPin, INPUT);
+  }
+
   bool pressed() {
     return (digitalRead(m_inputPin) == HIGH);
   }
